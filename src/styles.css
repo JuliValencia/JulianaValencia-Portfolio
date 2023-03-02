@@ -23,6 +23,7 @@ h2 {
   font-size: 30px;
   line-height: 2;
   color: #272142;
+  text-align: center;
 }
 
 img {
@@ -33,6 +34,7 @@ img {
 
 .hero {
   display: flex;
+  justify-content: center;
   padding: 170px;
 }
 
