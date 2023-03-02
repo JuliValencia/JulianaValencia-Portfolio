@@ -14,9 +14,9 @@ body {
 h1 {
   color: var(--first-color);
   font-size: 84px;
-
   font-weight: bold;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 h2 {
@@ -25,11 +25,33 @@ h2 {
   color: #272142;
 }
 
+img {
+  padding: 100px;
+  width: var(--image-size);
+  border-radius: 50%;
+}
+
 .hero {
-  text-align: center;
+  display: flex;
   padding: 170px;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-links {
+  align-content: center;
+}
 .btn-branding {
   background: #f76b8a;
   border-radius: 5px;
@@ -38,31 +60,23 @@ h2 {
   width: 200px;
   font-size: 20px;
   font-weight: normal;
-}
-
-.img-fluid {
-  height: auto;
-  max-width: 100%;
-  padding: 100px;
-  width: var(--image-size);
-  border-radius: 50%;
-}
-.text-center {
-  text-align: center !important;
-}
-
-.col-sm-6 {
-  flex: 0 0 auto;
-  width: 50%;
+  text-align: center;
 }
 
 @media (max-width: 576px) {
-  .h1 {
+  h1 {
     font-size: 64px;
     line-height: 1;
   }
   h2 {
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
+  }
+  .hero {
+    display: block;
+  }
+  .btn-branding {
+    width: 100px;
+    font-size: 12px;
   }
 }
