@@ -32,6 +32,13 @@ h3 {
 p {
   font-size: 20px;
 }
+.navbar {
+  background: rgba(102, 191, 191, 0.1) !important;
+}
+.navbar-icon {
+  border-radius: 50%;
+  margin-right: 10px;
+}
 .project-title {
   font-size: 48px;
   font-weight: bold;
