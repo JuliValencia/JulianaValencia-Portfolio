@@ -167,6 +167,12 @@ footer {
 .footer-contact-icon {
   font-size: 35px;
 }
+
+.github-link,
+.contactme-links {
+  color: #f76b8a;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 64px;
