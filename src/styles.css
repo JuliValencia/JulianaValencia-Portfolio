@@ -32,6 +32,10 @@ h3 {
 p {
   font-size: 20px;
 }
+i {
+  font-size: 70px;
+  color: #66bfbf;
+}
 .navbar {
   background: rgba(102, 191, 191, 0.1) !important;
 }
@@ -39,6 +43,15 @@ p {
   border-radius: 50%;
   margin-right: 10px;
 }
+.navbar-brand {
+  font-size: 22px;
+  font-weight: 400;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .project-title {
   font-size: 48px;
   font-weight: bold;
