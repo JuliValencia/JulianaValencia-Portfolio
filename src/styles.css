@@ -34,7 +34,7 @@ p {
 }
 i {
   font-size: 70px;
-  color: #66bfbf;
+  color: var(--first-color);
 }
 .navbar {
   background: rgba(102, 191, 191, 0.1) !important;
@@ -52,6 +52,9 @@ i {
   justify-content: flex-end;
 }
 
+.active {
+  color: var(--fourth-color) !important;
+}
 .project-title {
   font-size: 48px;
   font-weight: bold;
@@ -149,6 +152,9 @@ i {
   p {
     text-align: center;
   }
+  i {
+    font-size: 16px;
+  }
   .hero {
     display: block;
   }
@@ -158,5 +164,15 @@ i {
     display: block;
     text-align: center;
     margin: 0 auto;
+  }
+  .btn-contact {
+    width: 120px;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .tool-skill-name {
+    font-size: 12px;
   }
 }
