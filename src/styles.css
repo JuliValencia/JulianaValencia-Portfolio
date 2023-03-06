@@ -36,6 +36,7 @@ i {
   font-size: 70px;
   color: var(--first-color);
 }
+
 .navbar {
   background: rgba(102, 191, 191, 0.1) !important;
 }
@@ -135,6 +136,23 @@ i {
   padding-left: 50px;
 }
 
+.btn-primary {
+  background: #f76b8a;
+  border-radius: 5px;
+  color: var(--third-color);
+  padding: 18px, 35px, 18px, 35px;
+  width: 180px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  border: solid #f76b8a;
+}
+
+.contact-form {
+  display: block;
+  margin: 0 auto;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 64px;
@@ -174,5 +192,8 @@ i {
   }
   .tool-skill-name {
     font-size: 12px;
+  }
+  .contact-icon {
+    font-size: 30px;
   }
 }
